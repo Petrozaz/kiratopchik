@@ -111,20 +111,5 @@ namespace ClassLibraryPassword.Tests
         }
 
 
-
-        [TestMethod()]
-        public void Check_PasswordWithoutLowehjhrSymbols_ReturnsTrue()
-        {
-            bool expected = false;
-
-        }
-
-
-        [TestMethod()]
-        public void Check_PasswordWithoutLowehjhrSymbols_ReturnsFalse()
-        {
-            bool expected = false;
-        }
-
     }
 }

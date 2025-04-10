@@ -25,6 +25,7 @@ namespace Kira
             InitializeComponent();
             //huihhjhj
             //guihuugug
+            //ghuvhjvhj
         }
     }
 }
