@@ -111,5 +111,24 @@ namespace ClassLibraryPassword.Tests
         }
 
 
+        [TestMethod()]
+        public void Check_PasswordWithSymbolsVosklSymbol_ReturnsTrue1()
+        {
+            string password = "ASD!q1234!";
+            bool expected = false;
+            bool actual = PasswordChecker.ValidatePassword(password);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void Check_PasswordWithSymbolsVosklSymbol_ReturnsFalse1()
+        {
+            string password = "ASDq1234";
+            bool expected = false;
+            bool actual = PasswordChecker.ValidatePassword(password);
+            Assert.AreEqual(expected, actual);
+        }
+
+
     }
 }

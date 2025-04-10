@@ -20,6 +20,8 @@ namespace ClassLibraryPassword
                 return false;
             if (password.Intersect("#$%^&_").Count() == 0)
                 return false;
+            if (password=="!")
+                return false;
             return true;
         }
     }
