@@ -110,12 +110,21 @@ namespace ClassLibraryPassword.Tests
             Assert.AreEqual(expected, actual);
         }
 
+
+
         [TestMethod()]
-        public void Check_PasswordLowerSymbols_ReturnsFalse()
+        public void Check_PasswordWithoutLowehjhrSymbols_ReturnsTrue()
         {
-            
+            bool expected = false;
+
         }
 
+
+        [TestMethod()]
+        public void Check_PasswordWithoutLowehjhrSymbols_ReturnsFalse()
+        {
+            bool expected = false;
+        }
 
     }
 }

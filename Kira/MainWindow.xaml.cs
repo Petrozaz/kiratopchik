@@ -23,6 +23,8 @@ namespace Kira
         public MainWindow()
         {
             InitializeComponent();
+            //huihhjhj
+            //guihuugug
         }
     }
 }
